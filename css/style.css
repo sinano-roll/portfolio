@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+}
+
+#topview {
+  background-color: #fff;
+  height: 750px;
+  padding: 40px 0;
+}
+
+#topview .topviewText {
+  color: #000;
+  z-index: 10;
+  margin-top: 100px;
+  padding-top: 100px;
+  margin-left: 100px;
+}
+
+#topview .topviewText h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+#topview .topviewText h3 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#topview #author {
+  margin-left: 100px;
+  border-left: 5px #000 solid;
+}
+
+#topview #author h1 {
+  padding-left: 30px;
+  color: #000;
+}
+
+#topview #author h2 {
+  padding-left: 30px;
+  color: #000;
+}
+
+#topview #author h3 {
+  padding-left: 30px;
+  color: #808080;
+}
+
+#main {
+  z-index: -3;
+  border-top: #000 solid 5px;
+}
+
+#main img {
+  width: 30%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+#main .contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+  border: #000 3px solid;
+}
+
+#main .contents h2 {
+  margin-bottom: 20px;
+}
+
+#main .contents p {
+  margin-bottom: 80px;
+}
+
+#main .contents h3 {
+  font-size: 18px;
+}
+
+#main .contents .serviceBtn {
+  text-decoration: none;
+  background-color: #478BD9;
+  width: 200px;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
