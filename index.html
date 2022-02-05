@@ -1,55 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <meta name=”description“ content=“専門学校に通うUI/UXデザイナー志望の原田一輝のポートフォリオ“>
     <title>Harada Kazuki</title>
 </head>
-    <div id="topview">
-        <div class="topviewText">
-            <div class="centerText">
-                <h1>Portfolio</h1>
-                <h3>ハラダカズキ作品集</h3>
-            </div>
-        </div>
-        <div id="author">
-            <div class="name">
-                <h3>氏名</h3>
-                <h1>原田&nbsp;一輝</h1>
-            </div>
-            <div class="skill">
-                <h3>スキル</h3>
-                <h2>HTML&#047;CSS&nbsp;JavaScript&nbsp;PHP</h2>
-            </div>
-            <div class="dream">
-                <h3>職種</h3>
-                <h2>UI&#149;UXデザイナー</h2>
-            </div>
-        </div>
+<body>
+<header>
+    <h1>Portfolio<br><span>ハラダカズキ作品集</span></h1>
+    <nav>
+        <ul>
+            <li><a href="#aboutme">About&nbsp;Me</a></li>
+            <li><a href="#works">作品集</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div id="profile">
+        <dl>
+            <dt>氏名</dt>
+            <dd>原田一輝</dd>
+            <dt>スキル</dt>
+            <dd>HTML&#047;CSS&nbsp;JavaScript&nbsp;PHP</dd>
+            <dt>希望職種</dt>
+            <dd>UI&#149;UXデザイナー</dd>
+        </dl>
     </div>
-    <div id="main">
-        <div class="contents">
-            <div class="serviceText">
-                <div class="serviceTitle">
-                    <h2>洋食サーチャー</h2>
-                </div>
-                <p>誰でも簡単に割り勘ができるアプリケーションのデザインとその思考の過程をまとめました。<br></p>
-                <h3 class="serviceBtn"><a href="#">サービスへ</a></h3>
+    <article id="aboutme">
+        <h2>About&nbsp;Me</h2>
+        <p>初めまして&#33;&#33;</p>
+        <p>大阪の専門学校でWEB系の勉強をしている原田一輝と申します&#12290;</p>
+        <p>UI&#149;UXデザイナーを目指しており&#12289;日々デザインカンプやそれに至った思考の過程などを作ってます&#12290;</p>
+        <p>他にも色々なことに挑戦することが大好きで最近は楽器と音楽作りに挑戦しています&#33;</p>
+    </article>
+    <article id="works">
+        <h2>Works</h2>
+        <section class="works">
+            <h3>洋食サーチャー</h3>
+            <p>料理名をカメラでかざすだけで料理の画像と情報が出てくるアプリケーションのデザインとその思考の過程をまとめました。<br></p>
+            <div id="yousyokuImg">
+                <img class="serviceImage" src="./images/yousyoku-searcher.png" alt="洋食サーチャー"></img>
+                <img class="serviceImage" src="./images/yousyoku-searcher.png" alt="洋食サーチャー"></img>
             </div>
-            <img class="serviceImage" src="./images/yousyoku-searcher.png" alt="わりかんかん"></img>
-        </div>
-        <div class="contents">
-            <div class="serviceText">
-                <div class="serviceTitle">
-                    <h2>ポジションマップ作成アプリ&nbsp;[CUEVA]</h2>
-                </div>
-                <p>直感的に簡単操作で誰でもポジションマップを作成することができるWEBアプリケーションです。</p>
-                <h3 class="serviceBtn"><a href="#">サービスへ</a></h3>
+            <a href="#">サービスへ<br></a>
+            <!-- <span>クリックするとXDの共有リンクへ遷移します。</span> -->
+        </section>
+        <section class="works">
+            <h3>萩本陣</h3>
+            <p>旅館のサイトを作ることを想定したXDを用いて作成したプロトタイプです。<br></p>
+            <div id="yousyokuImg">
+                <img class="serviceImage" src="./images/yousyoku-searcher.png" alt="洋食サーチャー"></img>
+                <img class="serviceImage" src="./images/yousyoku-searcher.png" alt="洋食サーチャー"></img>
             </div>
-            <img class="serviceImage" src="./images/niku.png" alt="CUEVA"></img>
-        </div>
-    </div>
+            <a href="#">サービスへ<br></a>
+            <!-- <span>クリックするとXDの共有リンクへ遷移します。</span> -->
+        </section>
+        <section class="works">
+            <h3>割り勘かん</h3>
+            <p>誰でも簡単に割り勘ができるアプリケーションのデザインとその思考の過程をまとめました。<br></p>
+            <div id="yousyokuImg">
+                <img class="serviceImage" src="./images/yousyoku-searcher.png" alt="洋食サーチャー"></img>
+                <img class="serviceImage" src="./images/yousyoku-searcher.png" alt="洋食サーチャー"></img>
+            </div>
+            <a href="#">サービスへ<br></a>
+            <!-- <span>クリックするとXDの共有リンクへ遷移します。</span> -->
+        </section>
+    </article>
+</main>
+<footer>
+    <nav>
+        <ul>
+            <li><a href="#aboutme">About&nbsp;Me</a></li>
+            <li><a href="#works">作品集</a></li>
+        </ul>
+    </nav>
+    <p><small>Copyright &copy; Harada Kazuki</small></p>
+</footer>
 </body>
 </html>

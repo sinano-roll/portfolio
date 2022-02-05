@@ -1,81 +1,138 @@
-*{
-    margin:0;
+//coloring
+$color1:  #fff;
+$color2: #000;
+$color3: #808080;
+
+header{
+    background-color: $color1;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    border-bottom: 10px solid $color2;
+    h1{
+        font-size: 100px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        text-align: center;
+        span{
+            font-size: 30px;
+        }
+    }
+    nav{
+        position: absolute;
+        top: 5%;
+        right: 7%;
+        ul{
+            display: flex;
+            li{
+                font-size: 20px;
+                list-style: none; 
+                margin-right: 50px;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
-#topview{
-    background-color: #fff;
-    height: 750px;
-    padding: 40px 0;
-    .topviewText{
-        color: #000;
-        z-index: 10;
-        margin-top: 100px;
-        padding-top: 100px;
-        margin-left: 100px;
-        h1{
-            font-size: 100px;
-            text-align: center;
+main{
+    position: relative;
+    #profile{
+        position: absolute;
+        top: -13%;
+        left: 6%;
+        border-left: 5px solid $color2;
+        dt{
+            color: $color3;
+            font-size: 20px;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            font-weight: bold;
         }
-        h3{
-            font-size: 32px;
-            text-align: center;
-            margin-bottom: 50px;
+        dd{
+            margin-left: 30px;
+            font-size: 30px;
+            margin-bottom: 13px;
+            font-weight: bold;
         }
     }
-    #author{
-        margin-left: 100px;
-        border-left: 5px #000 solid;
-        h1{
-            padding-left: 30px;
-            color: #000;
-        }
+    #aboutme{
+        background-color: $color1;
+        text-align: center;
         h2{
-            padding-left: 30px;
-            color: #000;
-        }
-        h3{
-            padding-left: 30px;
-            color: #808080;
-        }
-    }
-}
-#main{
-    z-index: -3;
-    border-top: #000 solid 5px;
-    img{
-        width: 30%;
-        height: auto;
-        margin-bottom: 50px;
-    }
-    .contents{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 40px;
-        border: #000 3px solid; 
-        h2{
-            margin-bottom: 20px;
+            font-size: 36px;
+            color: $color2;
+            padding-top: 50px;
+            margin-bottom: 30px;
         }
         p{
-            margin-bottom: 80px;
+            margin: 30px 0;
+            font-size: 20px;
+        }
+    }
+    #works{
+        padding-top: 20px;
+        background-color: $color1;
+        text-align: center;
+        h2{
+            font-size: 36px;
+            color: $color2;
+            padding: 30px 0;
         }
         h3{
-            font-size: 18px;
-
+            font-size: 24px;
+            padding: 30px 0;
         }
-        .serviceBtn{
-            text-decoration: none;
-            background-color: #478BD9;
-            width: 200px;
-            padding: 20px 0;
-            text-align: center;
-            border-radius: 15px;
-            color: #fff;
+        p{
+            font-size: 20px;
+            padding-bottom: 30px;
+        }
+        a{
+            padding: 30px 0;
+        }
+        #yousyokuImg{
+            display: flex;
+            justify-content: center;  
+            img{
+                height: auto;
+                width: 15%;
+                margin-right: 20px;
+                margin-bottom: 60px;
+            }
+        }
+        .works{
+            margin-bottom: 50px;
+            a{
+                background-color: $color2;
+                color: $color1;
+                padding: 20px 50px;
+                border-radius: 15px;
+            }
+            a:hover{
+                background-color: $color1;
+                color: $color2;
+                border: 3px $color2 solid;
+            }
         }
     }
 }
-// .typ {
-//     opacity: 0;
-//     }
-//   .typ span {
-//     opacity: 0;
-//     }
+footer {
+    padding: 30px 0 0 0;
+    color: #fff;
+    background-color: $color2;
+    p{
+        text-align: center;
+    }
+    ul{
+        color: $color1;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        li{
+            margin-right: 50px;
+        }
+    }
+}
