@@ -19,6 +19,8 @@ header{
         text-align: center;
         span{
             font-size: 30px;
+            display: block;
+            margin: 30px auto;
         }
     }
     nav{
@@ -116,12 +118,16 @@ main{
                 color: $color2;
                 border: 3px $color2 solid;
             }
+            span{
+                display: block;
+                margin: 40px auto;
+            }
         }
     }
 }
 footer {
     padding: 30px 0 0 0;
-    color: #fff;
+    color: $color1;
     background-color: $color2;
     p{
         text-align: center;
@@ -133,6 +139,12 @@ footer {
         margin-bottom: 30px;
         li{
             margin-right: 50px;
+            color: $color1;
+            text-decoration: none;
+            li:hover{
+                color:$color1
+            }
         }
+
     }
 }
