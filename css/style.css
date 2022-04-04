@@ -42,6 +42,8 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
+  color: #000;
+  font-weight: bold;
 }
 
 main {
@@ -138,17 +140,31 @@ main #works .works a {
   color: #fff;
   padding: 20px 50px;
   border-radius: 15px;
+  font-weight: bold;
 }
 
 main #works .works a:hover {
   background-color: #fff;
   color: #000;
   border: 3px #000 solid;
+  font-weight: bold;
 }
 
 main #works .works span {
   display: block;
   margin: 40px auto;
+}
+
+main #works .works #presen {
+  font-size: 14px;
+}
+
+main #works .works .proto {
+  padding: 20px 74px;
+}
+
+main #works .works .service {
+  padding: 20px 74px;
 }
 
 footer {
@@ -180,5 +196,11 @@ footer ul li {
 
 footer ul li li:hover {
   color: #fff;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
