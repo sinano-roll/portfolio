@@ -38,6 +38,11 @@ header{
                     color: $color2;
                     font-weight: bold;
                 }
+                a:hover{
+                    text-decoration: none;
+                    color: #f08080;
+                    font-weight: bold;
+                }
             }
         }
     }
@@ -144,12 +149,13 @@ footer {
     background-color: $color2;
     p{
         text-align: center;
+        
     }
     ul{
         color: $color1;
         display: flex;
         justify-content: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         li{
             margin-right: 50px;
             color: $color1;

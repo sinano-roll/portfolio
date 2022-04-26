@@ -46,6 +46,12 @@ header nav ul li a {
   font-weight: bold;
 }
 
+header nav ul li a:hover {
+  text-decoration: none;
+  color: #f08080;
+  font-weight: bold;
+}
+
 main {
   position: relative;
 }
@@ -185,7 +191,7 @@ footer ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 footer ul li {
