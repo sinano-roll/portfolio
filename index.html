@@ -4,84 +4,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
+    <title>portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
-    <meta name=”description“ content=“専門学校に通うUI/UXデザイナー志望の原田一輝のポートフォリオ“>
-    <title>Harada Kazuki</title>
+    <link rel="stylesheet" href="./css/reset.css">
 </head>
-<body>
-<header>
-    <h1>Portfolio<br><span>ハラダカズキ作品集</span></h1>
-    <nav>
-        <ul>
-            <li><a href="#aboutme">About&nbsp;Me</a></li>
-            <li><a href="#works">作品集</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <div id="profile">
-        <dl>
-            <dt>氏名</dt>
-            <dd>原田一輝</dd>
-            <dt>スキル</dt>
-            <dd>HTML&#047;CSS&nbsp;JavaScript&nbsp;PHP</dd>
-            <dt>希望職種</dt>
-            <dd>UI&#149;UXデザイナー</dd>
-        </dl>
+<body class="mainContent">
+    <div class="tab-panel">
+        <div id="triangle">
+            <div class="triangle1"></div>
+            <div class="triangle2"></div>
+        </div>
+        <main>
+            <div class="panel-group">
+                <div class="panel tab-A is-show">
+                    <div class="top-content" id="top">
+                        <div class="right-header">
+                            <h1 class="title">Harada Kazuki<br><span>My Portfolio</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel tab-B">
+                    <article id="aboutme" class="container aboutme">
+                        <h2>About&nbsp;Me</h2>
+                        <p>初めまして&#33;&#33;</p>
+                        <p>デザインの奥深さや楽しさを知り、</p>
+                        <p>現在、専門学校でデザインを学んでいる原田一輝と申します。</p>
+                        <p>将来は色々なデザインを手掛けれるようなデザイナーなるべく</p>
+                        <p>日々努力しています。</p>
+                        <p>知らないものに挑戦するのが大好きで、最近は独学で音楽作りを始めました。</p>
+                        <p>これからもっともっと様々なことに挑戦していきたいです。</p>
+                    </article>
+                </div>
+                <div class="panel tab-C">
+                    <article id="skill">
+                        <h2>My&nbsp;Skill</h2>
+                        <div class="skill-flex">
+                            <div class="cording">
+                                <div class="skill">
+                                    <div>
+                                        <img src="./images/html.png">
+                                    </div>
+                                    <div>
+                                        <h3>HTML5</h3>
+                                        <p>WEBサイトの基本的なコーディング</p>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div>
+                                        <img src="./images/sass.png">
+                                    </div>
+                                    <div>
+                                        <h3>Sass</h3>
+                                        <p>WEBサイトの装飾</p>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div>
+                                        <img src="./images/php.png">
+                                    </div>
+                                    <div>
+                                        <h3>php</h3>
+                                        <p>サーバーサイド構築・DB操作</p>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div>
+                                        <img src="./images/TypeScript.png">
+                                    </div>
+                                    <div>
+                                        <h3>TypeScript</h3>
+                                        <p>サーバーサイド構築・Vue.jsやNode.jsとの連携</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="design">
+                                <div class="skill">
+                                    <div>
+                                        <img src="./images/XD.png">
+                                    </div>
+                                    <div>
+                                        <h3>Adobe XD</h3>
+                                        <p>ワイヤーフレーム・デザインカンプの作成</p>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div>
+                                        <img src="./images/photoshop.png">
+                                    </div>
+                                    <div>
+                                        <h3>Adobe Photoshop</h3>
+                                        <p>写真や画像の加工</p>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div>
+                                        <img src="./images/Illustrator.png">
+                                    </div>
+                                    <div>
+                                        <h3>Adobe Illustrator</h3>
+                                        <p>ロゴ・アイコン・イラストの作成</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="panel tab-D">
+                    <article id="works">
+                        <h2>Works</h2>
+                        <div class="works">
+                            <section class="work1">
+                                <h3>洋食サーチャー</h3>
+                                <p>料理名をカメラでかざすだけで料理の画像と情報が出てくる<br>アプリケーションのデザインとその思考の過程をまとめました。<br></p>
+                                <ul>
+                                    <li>
+                                        <a href="https://xd.adobe.com/view/6db3df68-079c-454e-86df-b17a33fd97bb-38e0/">プロトタイプへ</a>
+                                        <div class="url">クリックするとXDの共有リンクへ遷移します。</div>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.canva.com/design/DAE34iMbxi4/9Ugq851OOxa17ki0NXTNXQ/view?utm_content=DAE34iMbxi4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">プレゼンテーションへ<br></a>
+                                        <div class="url">クリックするとプレゼンテーションの共有リンクへ遷移します。</div>
+                                    </li>
+                                </ul>
+                            </section>
+                            <div class="works-images">
+                                <img src="./images/YousyokuSearcher1.png"></img>
+                                <img src="./images/YousyokuSearcher2.png"></img>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="tab-panel">
+                <div class="tab-group">
+                  <button class="tab tab-A is-active"></button>
+                  <button class="tab tab-B"></button>
+                  <button class="tab tab-C"></button>  
+                  <button class="tab tab-D"></button>  
+                </div>
+            </div>
+            <div id="triangle">
+                <div class="triangle3"></div>
+                <div class="triangle4"></div>
+            </div>
+        </main>
     </div>
-    <article id="aboutme">
-        <h2>About&nbsp;Me</h2>
-        <p>初めまして&#33;&#33;</p>
-        <p>大阪の専門学校でWEB系の勉強をしている原田一輝と申します&#12290;</p>
-        <p>UI&#149;UXデザイナーを目指しており&#12289;日々デザインカンプやそれに至った思考の過程などを作ってます&#12290;</p>
-        <p>他にも色々なことに挑戦することが大好きで最近は楽器と音楽作りに挑戦しています&#33;</p>
-    </article>
-    <article id="works">
-        <h2>Works</h2>
-        <section class="works">
-            <h3>洋食サーチャー</h3>
-            <p>料理名をカメラでかざすだけで料理の画像と情報が出てくるアプリケーションのデザインとその思考の過程をまとめました。<br></p>
-            <!-- <p>現在SwiftとNode.jsとPythonを使って実際に開発しています&#33;<br></p> -->
-            <div id="yousyokuImg">
-                <img class="serviceImage" src="./images/YousyokuSearcher1.png" alt="洋食サーチャー"></img>
-                <img class="serviceImage1" src="./images/YousyokuSearcher2.png" alt="洋食サーチャー"></img>
-            </div>
-            <a class="proto" href="https://xd.adobe.com/view/6db3df68-079c-454e-86df-b17a33fd97bb-38e0/">プロトタイプへ<br></a>
-            <span>クリックするとXDの共有リンクへ遷移します。</span>
-            <a href="https://www.canva.com/design/DAE34iMbxi4/9Ugq851OOxa17ki0NXTNXQ/view?utm_content=DAE34iMbxi4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">プレゼンテーションへ<br></a>
-            <span id="presen">クリックするとプレゼンテーションの共有リンクへ遷移します。</span>
-        </section>
-        <section class="works">
-            <h3>萩本陣</h3>
-            <p>旅館のサイトを作ることを想定したXDを用いて作成したプロトタイプです。<br></p>
-            <div id="yousyokuImg">
-                <img class="serviceImage" src="./images/Hagihonnjinn1.png" alt="萩本陣1"></img>
-                <img class="serviceImage1" src="./images/Hagihonnjinn2.png" alt="萩本陣2"></img>
-            </div>
-            <a class="service" href="https://xd.adobe.com/view/bda326b0-fcee-4c5a-8d55-040b20a329be-e8f0/">プロトタイプへ<br></a>
-            <span>クリックするとXDの共有リンクへ遷移します。</span>
-        </section>
-        <!-- <section class="works">
-            <h3>割り勘かん</h3>
-            <p>誰でも簡単に割り勘ができるアプリケーションのデザインとその思考の過程をまとめました。<br></p>
-            <div id="yousyokuImg">
-                <img class="serviceImage" src="./images/wariikankan1.png" alt="割り勘かん1"></img>
-                <img class="serviceImage" src="./images/warikannkan2.png" alt="割り勘かん2"></img>
-            </div>
-            <a href="https://xd.adobe.com/view/dc9eca74-88f1-4134-9d3e-2f0e4c4fad1f-89cd/">サービスへ<br></a>
-            <span>クリックするとXDの共有リンクへ遷移します。</span>
-        </section> -->
-    </article>
-</main>
-<footer>
-    <nav>
-        <ul>
-            <li><a href="#aboutme">About&nbsp;Me</a></li>
-            <li><a href="#works">作品集</a></li>
-        </ul>
-    </nav>
-    <p>Copyright &copy; Harada Kazuki</p>
-</footer>
+    <script src="app.js"></script>
 </body>
 </html>
