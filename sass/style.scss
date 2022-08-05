@@ -21,7 +21,7 @@
     color: #6A4928;
     .aboutme{
         position: absolute;
-        top: 45%;
+        top: 44%;
         left: 50%;
         transform: translateY(-50%) translateX(-50%);
         h2{
@@ -29,11 +29,11 @@
             font-size: 40px;
             text-align: center;
             color: #6A4928;
+            margin-bottom: 50px;
         }
         p{
+            margin-top: 45px;
             font-size: 20px;
-            margin-top: 60px;
-
         }
     }
 }
