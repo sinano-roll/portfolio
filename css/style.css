@@ -27,8 +27,8 @@
 
 .tab-B .aboutme {
   position: absolute;
-  top: 20%;
-  left: 20%;
+  top: 11%;
+  left: 40%;
 }
 
 .tab-B .aboutme h2 {
@@ -39,10 +39,34 @@
   margin-bottom: 20px;
 }
 
-.tab-B .aboutme p {
-  margin-top: 10px;
+.tab-B .profiles {
+  position: absolute;
+  top: 35%;
+  left: 32%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tab-B .profiles .profile {
+  margin-left: 50px;
+}
+
+.tab-B .profiles .profile h3 {
   font-size: 20px;
   margin-bottom: 20px;
+}
+
+.tab-B .profiles .profile h4 {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #000;
+}
+
+.tab-B .profiles img {
+  width: auto;
+  height: 250px;
+  margin-right: 50px;
 }
 
 .tab-C {
@@ -53,8 +77,8 @@
 
 .tab-C #skill {
   position: absolute;
-  top: 44%;
-  left: 50%;
+  top: 48%;
+  left: 48%;
   -webkit-transform: translateY(-50%) translateX(-50%);
           transform: translateY(-50%) translateX(-50%);
 }
@@ -104,9 +128,19 @@
   color: #6A4928;
 }
 
+.tab-D #works h2 {
+  position: absolute;
+  top: 15%;
+  left: 48%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
 .tab-D #works .works {
   position: absolute;
-  top: 55%;
+  top: 58%;
   left: 46%;
   -webkit-transform: translateY(-50%) translateX(-50%);
           transform: translateY(-50%) translateX(-50%);
@@ -128,19 +162,9 @@
   margin-bottom: 30px;
 }
 
-.tab-D #works h2 {
-  position: absolute;
-  top: 14%;
-  left: 50%;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-          transform: translateY(-50%) translateX(-50%);
-  font-size: 40px;
-  margin-bottom: 50px;
-}
-
 .tab-D #works h3 {
   font-size: 24px;
-  margin: 30px 0px 30px 0px;
+  margin: 10px 0px 30px 0px;
 }
 
 .tab-D #works p {
@@ -149,6 +173,63 @@
 }
 
 .tab-D #works img {
+  margin-top: 30px;
+  height: 300px;
+  width: auto;
+}
+
+.tab-E {
+  height: 96vh;
+  position: relative;
+  color: #6A4928;
+}
+
+.tab-E #works h2 {
+  position: absolute;
+  top: 15%;
+  left: 48%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.tab-E #works .works {
+  position: absolute;
+  top: 58%;
+  left: 46%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.tab-E #works li {
+  list-style: none;
+  font-size: 16px;
+}
+
+.tab-E #works li .url {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.tab-E #works h3 {
+  font-size: 24px;
+  margin: 10px 0px 30px 0px;
+}
+
+.tab-E #works p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-right: 105px;
+}
+
+.tab-E #works img {
   margin-top: 30px;
   height: 300px;
   width: auto;
